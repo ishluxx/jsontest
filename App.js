@@ -3,7 +3,7 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const { v4: uuidv4 } = require('uuid');
-const port = 3006;
+// const port = 3006;
 
 // Set default middlewares (logger, static, cors, etc.)
 server.use(middlewares);
@@ -23,6 +23,6 @@ server.post('/posts', (req, res, next) => {
 server.use(router);
 
 // Start server
-server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
-});
+// server.listen(port, () => {
+//   console.log(`JSON Server is running on port ${port}`);
+// });

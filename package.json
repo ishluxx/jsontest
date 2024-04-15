@@ -1,21 +1,15 @@
 {
-  "name": "jsonserver1",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "jsontest",
   "version": "1.0.0",
-  "description": "",
-  "main": "App.js",
+  "main": "server.js",
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Fábio Cordeiro",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^0.17.1",
-    "uuid": "^9.0.1",
-    "vercel": "^34.0.0"
-  }
+  "description": ""
 }
